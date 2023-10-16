@@ -1,3 +1,4 @@
+import Footer from './_components/footer';
 import Heading from './_components/heading';
 import Heros from './_components/heros';
 
@@ -8,7 +9,7 @@ export default function Home() {
         <Heading />
         <Heros />
       </div>
-      <div className='bg-green-300'>Footer</div>
+      <Footer />
     </div>
   );
 }
