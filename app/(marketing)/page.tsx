@@ -1,10 +1,12 @@
-import { Button } from '@/components/ui/button';
+import Heading from './_components/heading';
 
 export default function Home() {
   return (
-    <main className='flex min-h-screen flex-col items-center gap-5 p-24'>
-      <p>Welcome to Jotion!</p>
-      <Button>Click Me</Button>
-    </main>
+    <div className='flex min-h-full flex-col'>
+      <div className='flex flex-1 flex-col items-center justify-center px-6 pb-10 text-center'>
+        <Heading />
+      </div>
+      <div className='bg-green-300'>Footer</div>
+    </div>
   );
 }
