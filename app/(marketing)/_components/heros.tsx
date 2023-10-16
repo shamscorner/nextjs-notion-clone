@@ -10,6 +10,8 @@ const Heros = () => {
             fill
             className='object-contain'
             alt='Documents'
+            sizes='(max-width: 640px) 100vw, 640px'
+            priority
           />
         </div>
 
@@ -19,6 +21,8 @@ const Heros = () => {
             fill
             className='object-contain'
             alt='Documents'
+            sizes='(max-width: 640px) 100vw, 640px'
+            priority
           />
         </div>
       </div>
